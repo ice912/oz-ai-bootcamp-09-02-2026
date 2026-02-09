@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- GET QueryParameter(?key=value) 데이터 전송 -->
+     <h1>GET 요청</h1>
+    <form action="https://www.google.com/search" method="get">
+        <input type="search" name="q" autocomplete="off">
+        <button>검색</button>
+    </form>
+        <!-- POST 요청 본문(body) 데이터 전송-->
+         <h1>POST 요청</h1>
+    <form action="https://httpbin.org/post" method="post">
+        <input type="password" name="q" autocomplete="off">
+        <button>전송</button>
+    </form>
+
+    </form>
+</body>
+</html>
